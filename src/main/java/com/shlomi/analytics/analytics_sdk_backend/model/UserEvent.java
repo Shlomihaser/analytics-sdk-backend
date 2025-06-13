@@ -15,7 +15,8 @@ public class UserEvent {
     private Instant eventTimestamp;
     private String metadata;
 
-    public UserEvent() {}
+    public UserEvent() {
+    }
 
     public UserEvent(String userId, String eventType, Instant eventTimestamp, String metadata) {
         this.userId = userId;
